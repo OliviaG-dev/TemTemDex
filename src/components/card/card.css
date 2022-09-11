@@ -1,0 +1,98 @@
+.card {
+    width: 20rem;
+    background-color: #9EDEF9;
+    border-radius: 1rem;
+    box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.5);
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card__info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    width: 100%;
+}
+
+.card__info__id {
+    font-size: 2rem;
+    font-weight: bold;
+    background: -webkit-linear-gradient(30deg, rgba(118, 118, 118, 0.398) 0%, rgba(0,0,0,1) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card__info__name {
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.card__info__type {
+    display: flex;
+}
+.crystal {
+    background: linear-gradient(230deg, rgba(242,242,242,1) 0%, rgba(206,61,87,1) 100%);
+    border:0.3rem solid rgba(206,61,87,1);
+}
+.digital {
+    background: linear-gradient(230deg, rgba(242,242,242,1) 0%, rgba(47,47,47,1) 100%);
+    border:0.3rem solid rgba(47,47,47,1) ;
+}
+.earth {
+    background: linear-gradient(230deg, rgba(242,242,242,1) 0%, rgba(143,105,75,1) 100%);
+    border:0.3rem solid rgba(143,105,75,1);
+}
+.electric {
+    background: linear-gradient(230deg, rgba(242,242,242,1) 0%, rgba(252,221,104,1) 100%);
+    border:0.3rem solid rgba(252,221,104,1);
+}
+.melee {
+    background: linear-gradient(230deg, rgba(242,242,242,1) 0%, rgba(198,120,69,1) 100%);
+    border:0.3rem solid rgba(198,120,69,1);
+}
+.mental {
+    background: linear-gradient(230deg, rgba(242,242,242,1) 0%, rgba(178,94,172,1) 100%);
+    border:0.3rem solid rgba(178,94,172,1);
+}
+.nature {
+    background: linear-gradient(230deg, rgba(242,242,242,1) 0%, rgba(168,225,96,1) 100%);
+    border:0.3rem solid rgba(168,225,96,1);
+}
+.toxic {
+    background: linear-gradient(230deg, rgba(242,242,242,1) 0%, rgba(74,69,75,1) 100%);
+    border:0.3rem solid rgba(74,69,75,1);
+}
+.wind {
+    background: linear-gradient(230deg, rgba(242,242,242,1) 0%, rgba(118,231,207,1) 100%);
+    border:0.3rem solid rgba(118,231,207,1);
+}
+.neutral {
+    background: linear-gradient(230deg, rgba(242,242,242,1) 0%, rgba(202,213,214,1) 100%);
+    border:0.3rem solid rgba(202,213,214,1);
+}
+.water {
+    background: linear-gradient(230deg, rgba(242,242,242,1) 0%, rgba(77,202,230,1) 100%);
+    border:0.3rem solid rgba(77,202,230,1);
+}
+.fire {
+    background: linear-gradient(230deg, rgba(242,242,242,1) 0%, rgba(225,106,69,1) 100%);
+    border:0.3rem solid rgba(225,106,69,1);
+}
+
+.card__info__type--img {
+    width: 2rem;
+    height: 2rem;
+}

@@ -1,7 +1,19 @@
 
-.container__center {
+.home__card {
     width: 80%;
     margin: auto;
-    height: 100rem;
-    background: rgb(182, 174, 174);
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+
+/**************Media Queries*************/
+
+@media (max-width: 1198px) { 
+    .home__card {
+        justify-content: space-around;
+    }
+}
+

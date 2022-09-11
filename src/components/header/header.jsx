@@ -3,8 +3,7 @@ import "./header.css";
 const Header = () => (
     <>
         <div className="header">
-            Je suis un Header !!!!
-            <div className=""> </div>
+            <h1 className="header__title">temtemDex</h1>
         </div>
     
     
