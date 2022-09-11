@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TemTemDex/static/css/main.deb7c196.css",
+    "main.js": "/TemTemDex/static/js/main.f7303894.js",
+    "index.html": "/TemTemDex/index.html",
+    "main.deb7c196.css.map": "/TemTemDex/static/css/main.deb7c196.css.map",
+    "main.f7303894.js.map": "/TemTemDex/static/js/main.f7303894.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.deb7c196.css",
+    "static/js/main.f7303894.js"
+  ]
+}
